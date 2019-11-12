@@ -31,7 +31,7 @@ namespace Utilities
             dbCommand.Parameters.Add(outputCount);
 
             db.GetDataSetUsingCmdObj(dbCommand);
-            int count = int.Parse(dbCommand.Parameters["@Count"].Value.To());
+            int count = int.Parse(dbCommand.Parameters["@Count"].Value.ToString());
             return count;
         }
     }
