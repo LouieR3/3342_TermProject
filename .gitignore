@@ -328,3 +328,14 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+TermProject_Template/bin/Utilities.dll
+TermProject_Template/bin/Utilities.pdb
+TermProject_Template/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+Utilities/bin/
+Utilities/obj/Debug/Utilities.csproj.FileListAbsolute.txt
+Utilities/obj/Debug/Utilities.dll
+Utilities/obj/Debug/Utilities.pdb
+.vs/TermProject_Template/v15/.suo
+.vs/TermProject_Template/v15/Server/sqlite3/storage.ide-shm
+.vs/TermProject_Template/v15/Server/sqlite3/storage.ide-wal
