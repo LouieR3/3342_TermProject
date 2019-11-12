@@ -74,10 +74,12 @@
     <Content Include="fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
     <Content Include="fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="ForgotPassword.aspx" />
     <Content Include="images\icons\favicon.ico" />
     <Content Include="images\icons\icon-google.png" />
     <Content Include="images\icons\map-marker.png" />
     <Content Include="images\icons\symbol-01.png" />
+    <Content Include="images\Temple-T.png" />
     <Content Include="js\main.js" />
     <Content Include="UserLogin.aspx" />
     <Content Include="UsersRegristration.aspx" />
@@ -114,6 +116,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
     <Compile Include="MasterLogReg.Master.cs">
       <DependentUpon>MasterLogReg.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -164,6 +173,12 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utilities\Utilities.csproj">
+      <Project>{9285ff8c-4242-4647-8205-0b6b9128cf53}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
