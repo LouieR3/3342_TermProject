@@ -13,5 +13,10 @@ namespace TermProject_Template
         {
 
         }
+
+        protected void btnCreateNew_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
