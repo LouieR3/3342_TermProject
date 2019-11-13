@@ -166,3 +166,5 @@ C:\Users\gavinr\Desktop\3342_TermProject\TermProject_Template\obj\Debug\TermProj
 C:\Users\gavinr\Desktop\3342_TermProject\TermProject_Template\obj\Debug\TermProject_Template.csproj.CopyComplete
 C:\Users\gavinr\Desktop\3342_TermProject\TermProject_Template\obj\Debug\TermProject_Template.dll
 C:\Users\gavinr\Desktop\3342_TermProject\TermProject_Template\obj\Debug\TermProject_Template.pdb
+C:\Users\gavinr\Desktop\3342_TermProject\TermProject_Template\bin\Utilities.dll
+C:\Users\gavinr\Desktop\3342_TermProject\TermProject_Template\bin\Utilities.pdb
