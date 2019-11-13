@@ -24,7 +24,7 @@ namespace Utilities
 
             inputEmail.Direction = ParameterDirection.Input;
             inputEmail.SqlDbType = SqlDbType.VarChar;
-            outputCount.Direction = ParameterDirection.Input;
+            outputCount.Direction = ParameterDirection.Output;
             outputCount.SqlDbType = SqlDbType.VarChar;
 
             dbCommand.Parameters.Add(inputEmail);
