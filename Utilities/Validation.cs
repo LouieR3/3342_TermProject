@@ -32,7 +32,7 @@ namespace Utilities
 
             db.GetDataSetUsingCmdObj(dbCommand);
             int count = int.Parse(dbCommand.Parameters["@Count"].Value.ToString());
-<<<<<<< HEAD
+
             return count;
         }
         public int CheckMerchantExists(string AccountEmail)
@@ -53,8 +53,6 @@ namespace Utilities
 
             db.GetDataSetUsingCmdObj(dbCommand);
             int count = int.Parse(dbCommand.Parameters["@Count"].Value.ToString());
-=======
->>>>>>> 35665d9768876530cdf8b9bbbf31e289cf6945f3
             return count;
         }
     }
