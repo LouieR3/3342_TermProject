@@ -22,11 +22,13 @@ namespace TermProject_Template
             int count = validationOBJ.CheckUserExists(email);
             if (count == 1)
             {
-                Response.Redirect("CreateAccount.aspx");
+                Response.Redirect("ForgotPassword.aspx");
             }
             else
             {
-
+                Response.Write(@"<script langauge='text/javascript'>alert
+                ('No account was found with this information, be sure to fill out the fields correctly');</script>");
+                return;
             }
             
         }

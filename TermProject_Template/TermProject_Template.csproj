@@ -84,6 +84,7 @@
     <Content Include="images\icons\icon-google.png" />
     <Content Include="images\icons\map-marker.png" />
     <Content Include="images\icons\symbol-01.png" />
+    <Content Include="images\McDonals.jpg" />
     <Content Include="images\Temple-T.png" />
     <Content Include="js\main.js" />
     <Content Include="UserLogin.aspx" />
